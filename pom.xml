@@ -5,7 +5,7 @@
         <name>Naver Corporation</name>
         <url>http://www.navercorp.com/</url>
     </organization>
-    <groupId>com.navercorp.pinpoint</groupId>
+    <groupId>com.gop.pinpoint</groupId>
     <artifactId>pinpoint</artifactId>
     <version>1.6.0-SNAPSHOT</version>
     <name>pinpoint</name>
@@ -101,94 +101,94 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-commons</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-commons-server</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-commons-hbase</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-rpc</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-thrift</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-bootstrap-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-bootstrap</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-profiler</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-profiler-optional</artifactId>
                 <type>pom</type>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-collector</artifactId>
                 <type>war</type>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-collector</artifactId>
                 <classifier>classes</classifier>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-web</artifactId>
                 <version>${project.version}</version>
                 <type>war</type>
             </dependency>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-web</artifactId>
                 <classifier>classes</classifier>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-plugins</artifactId>
                 <type>pom</type>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-plugins</artifactId>
                 <type>zip</type>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-tools</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.navercorp.pinpoint</groupId>
+                <groupId>com.gop.pinpoint</groupId>
                 <artifactId>pinpoint-test</artifactId>
                 <version>${project.version}</version>
             </dependency>
@@ -796,9 +796,9 @@
                     <singleCloverDatabase>false</singleCloverDatabase>
                     <includesTestSourceRoots>false</includesTestSourceRoots>
                     <excludes>
-                        <exclude>com/navercorp/pinpoint/thrift/dto/**/*.java</exclude>
-                        <exclude>com/navercorp/pinpoint/common/util/apache/**/*.java</exclude>
-                        <exclude>com/navercorp/pinpoint/profiler/util/jdk/**/*.java</exclude>
+                        <exclude>com.gop.pinpoint/thrift/dto/**/*.java</exclude>
+                        <exclude>com.gop.pinpoint/common/util/apache/**/*.java</exclude>
+                        <exclude>com.gop.pinpoint/profiler/util/jdk/**/*.java</exclude>
                     </excludes>
                 </configuration>
             </plugin>
@@ -861,9 +861,9 @@
                     <sourceEncoding>${encoding}</sourceEncoding>
                     <targetJdk>${jdk.version}</targetJdk>
                     <excludes>
-                        <exclude>com/navercorp/pinpoint/thrift/dto/**/*.java</exclude>
-                        <exclude>com/navercorp/pinpoint/common/util/apache/**/*.java</exclude>
-                        <exclude>com/navercorp/pinpoint/profiler/util/jdk/**/*.java</exclude>
+                        <exclude>com.gop.pinpoint/thrift/dto/**/*.java</exclude>
+                        <exclude>com.gop.pinpoint/common/util/apache/**/*.java</exclude>
+                        <exclude>com.gop.pinpoint/profiler/util/jdk/**/*.java</exclude>
                     </excludes>
                 </configuration>
             </plugin>
@@ -949,9 +949,9 @@
                         <ruleset>/rulesets/basic.xml</ruleset> <ruleset>/rulesets/imports.xml</ruleset> 
                         <ruleset>/rulesets/design.xml</ruleset> </rulesets> -->
                     <excludes>
-                        <exclude>com/navercorp/pinpoint/thrift/dto/**/*.java</exclude>
-                        <exclude>com/navercorp/pinpoint/common/util/apache/**/*.java</exclude>
-                        <exclude>com/navercorp/pinpoint/profiler/util/jdk/**/*.java</exclude>
+                        <exclude>com.gop.pinpoint/thrift/dto/**/*.java</exclude>
+                        <exclude>com.gop.pinpoint/common/util/apache/**/*.java</exclude>
+                        <exclude>com.gop.pinpoint/profiler/util/jdk/**/*.java</exclude>
                     </excludes>
                 </configuration>
             </plugin>

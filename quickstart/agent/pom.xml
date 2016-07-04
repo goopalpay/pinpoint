@@ -5,7 +5,7 @@
         <name>Naver Corporation</name>
         <url>http://www.navercorp.com/</url>
     </organization>
-    <groupId>com.navercorp.pinpoint</groupId>
+    <groupId>com.gop.pinpoint</groupId>
     <artifactId>pinpoint-quickstart-agent</artifactId>
     <version>${maven.pinpoint.version}</version>
     <name>Pinpoint Agent QuickStart </name>
@@ -13,12 +13,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.navercorp.pinpoint</groupId>
+            <groupId>com.gop.pinpoint</groupId>
             <artifactId>pinpoint-profiler</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.navercorp.pinpoint</groupId>
+            <groupId>com.gop.pinpoint</groupId>
             <artifactId>pinpoint-profiler-optional</artifactId>
             <version>${project.version}</version>
             <scope>runtime</scope>
@@ -27,7 +27,7 @@
 
         <!-- plug-ins -->
         <dependency>
-            <groupId>com.navercorp.pinpoint</groupId>
+            <groupId>com.gop.pinpoint</groupId>
             <artifactId>pinpoint-plugins</artifactId>
             <version>${project.version}</version>
             <type>pom</type>

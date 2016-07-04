@@ -2,7 +2,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.navercorp.pinpoint</groupId>
+        <groupId>com.gop.pinpoint</groupId>
         <artifactId>pinpoint</artifactId>
         <version>1.6.0-SNAPSHOT</version>
     </parent>
@@ -19,7 +19,7 @@
     <dependencies>
 
         <dependency>
-            <groupId>com.navercorp.pinpoint</groupId>
+            <groupId>com.gop.pinpoint</groupId>
             <artifactId>pinpoint-commons</artifactId>
             <exclusions>
                 <exclusion>
@@ -27,7 +27,7 @@
                     <artifactId>slf4j-api</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>com.navercorp.pinpoint</groupId>
+                    <groupId>com.gop.pinpoint</groupId>
                     <artifactId>pinpoint-thrift</artifactId>
                 </exclusion>
             </exclusions>

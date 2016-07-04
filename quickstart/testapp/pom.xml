@@ -5,7 +5,7 @@
         <name>Naver Corporation</name>
         <url>http://www.navercorp.com/</url>
     </organization>
-    <groupId>com.navercorp.pinpoint</groupId>
+    <groupId>com.gop.pinpoint</groupId>
     <artifactId>pinpoint-quickstart-testapp</artifactId>
     <name>Pinpoint TestApp QuickStart</name>
     <version>${maven.pinpoint.version}</version>

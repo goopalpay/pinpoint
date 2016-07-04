@@ -5,7 +5,7 @@
 		<name>Naver Corporation</name>
 		<url>http://www.navercorp.com/</url>
 	</organization>
-	<groupId>com.navercorp.pinpoint</groupId>
+	<groupId>com.gop.pinpoint</groupId>
 	<artifactId>pinpoint-quickstart-web</artifactId>
 	<name>Pinpoint Web QuickStart </name>
 	<version>${maven.pinpoint.version}</version>
@@ -17,7 +17,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.navercorp.pinpoint</groupId>
+			<groupId>com.gop.pinpoint</groupId>
 			<artifactId>pinpoint-web</artifactId>
 			<version>${project.version}</version>
 			<type>war</type>
@@ -44,7 +44,7 @@
 				<configuration>
 					<overlays>
 						<overlay>
-							<groupId>com.navercorp.pinpoint</groupId>
+							<groupId>com.gop.pinpoint</groupId>
 							<artifactId>pinpoint-web</artifactId>
 						</overlay>
 					</overlays>
